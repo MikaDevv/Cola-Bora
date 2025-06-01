@@ -1,0 +1,40 @@
+@font-face {
+  font-family: fontBold;
+  src: url(/assets/fonts/Inter_18pt-Bold.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: fontBlack;
+  src: url(/assets/fonts/Inter_18pt-Black.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: fontExtraBold;
+  src: url(/assets/fonts/Inter_18pt-ExtraBold.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: fontLight;
+  src: url(/assets/fonts/Inter_18pt-Light.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: fontMedium;
+  src: url(/assets/fonts/Inter_18pt-Medium.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: fontRegular;
+  src: url(/assets/fonts/Inter_18pt-Regular.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: fontSemiBold;
+  src: url(/assets/fonts/Inter_18pt-SemiBold.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: fontIrish;
+  src: url(/assets/fonts/IrishGrover-Regular.ttf);
+  font-display: swap;
+}
