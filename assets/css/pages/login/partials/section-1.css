@@ -37,6 +37,9 @@ body {
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
 
 }
+h1.cadastro{ 
+    padding-top: 50px !important;
+}
 
 h1{
     font-family: fontBold;
@@ -81,6 +84,10 @@ p{
 }
 
 .input-field img#togglePassword{
+    cursor: pointer;
+}
+
+.input-field img#togglePasswordRepeat{
     cursor: pointer;
 }
 
@@ -129,3 +136,4 @@ button:hover{
     text-decoration: underline;
     color: var(--black);
 }
+
