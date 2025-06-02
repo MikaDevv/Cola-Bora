@@ -1,0 +1,47 @@
+.sidebar-menu{
+    background-color: var(--yellowBack);
+    height: 100vh;
+    padding: 1.5rem;
+    color: var(--black);
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.container-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar-menu .nav-links{
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.nav-links a{
+    font-family: fontRegular;
+    font-size: 24px;
+    color: var(--black);
+    padding: 0.5rem 1rem;
+    width: 100%;
+    display: flex;
+    align-items: right;
+    gap: 0.5rem;
+    text-decoration: none;
+}
+
+.nav-links a{
+    border-radius: 20px;
+    transition-property: color, background-color, fill;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+}
+
+.nav-links li .selected, 
+.nav-links a:hover{
+    color: var(--yellowBack);
+    background-color: black;
+}
