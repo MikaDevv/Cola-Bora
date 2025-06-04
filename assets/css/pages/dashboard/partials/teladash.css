@@ -1,0 +1,12 @@
+    main{
+    display: flex;
+    border-radius: 20px;
+    width: 1170px;
+    height: 708px;
+    padding-top: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: var(--backYellow);
+    background-position-y: center;
+    
+}

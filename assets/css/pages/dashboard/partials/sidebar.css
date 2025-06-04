@@ -1,5 +1,11 @@
-.sidebar-menu{
+body{
     background-color: var(--yellowBack);
+    height: 100vh;
+    display: flex;
+}
+
+.sidebar-menu{
+    background-color: var(--yelloBack);
     height: 100vh;
     padding: 1.5rem;
     color: var(--black);
