@@ -7,6 +7,96 @@
     margin-right: 20px;
     margin-top: 20px;
     background-color: var(--backYellow);
-    background-position-y: center;
-    
+    background-position-y: center;   
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-left: 20px;
+}
+
+header .name{
+    background-color: var(--backYellow);
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: fontRegular;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+    padding: 13px 20px 13px 19px;
+
+}
+
+header .buttons{
+    padding-left: 430px;
+    display: flex;
+}
+
+.buttons .oferecer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 20px;
+    font-family: fontSemiBold;
+    background-color: var(--yellowBack);
+    border-radius: 20px;
+    padding: 13px 20px 13px 19px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+
+}
+.buttons .pedir {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 20px;
+    font-family: fontSemiBold;
+    background-color: var(--yellowBack);
+    border-radius: 20px;
+    padding: 13px 20px 13px 19px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+
+}
+
+.icone{
+    width: 24px;
+    height: 24px;
+}
+
+.buttons .oferecer:hover{
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.buttons .pedir:hover{
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.stats {
+      display: flex;
+      gap: 20px;
+      padding-top: 20px;
+      padding-left: 78px;
+      font-family: fontSemiBold;
+      font-size: 20px;
+    }
+.stat-card {
+    width: 150px;
+    height: 200px;
+    background: #fff;
+    padding: 20px;
+    width: 22%;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 2px 2px 8px #ccc;
+    position: relative;
+}
+
+.stats .number{
+    font-size: 40px;
+    align-items: center;
+    text-align: center;   
+     
 }
