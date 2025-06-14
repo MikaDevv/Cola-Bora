@@ -1,13 +1,15 @@
-    main{
-    display: flex;
-    border-radius: 20px;
-    width: 1170px;
-    height: 708px;
-    padding-top: 20px;
-    margin-right: 20px;
-    margin-top: 20px;
+main {
+    flex: 1;
+    width: 100%;
+    max-width: 1580px; 
+    height: auto;
+    padding: 20px;
+    margin: 20px;
     background-color: var(--backYellow);
     background-position-y: center;   
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -99,4 +101,90 @@ header .buttons{
     align-items: center;
     text-align: center;   
      
+}
+
+.painel-secundario {
+  display: flex;
+  gap: 40px;
+  margin-top: 40px;
+  padding: 0 40px;
+}
+
+/* PEDIDOS */
+.pedidos {
+  flex: 2;
+}
+.pedidos h3 {
+  font-family: fontSemiBold;
+  margin-bottom: 20px;
+}
+.pedido {
+  background-color: #f9ffb5;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 6px #ccc;
+}
+.pedido .icone {
+  font-size: 24px;
+  text-align: center;
+  width: 60px;
+}
+.pedido .icone span {
+  display: block;
+  font-size: 16px;
+  margin-top: 5px;
+}
+.pedido .conteudo {
+  flex: 1;
+  margin-left: 15px;
+}
+.pedido p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+.pedido a {
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+  font-weight: bold;
+}
+
+/* MENSAGENS */
+.mensagens {
+  flex: 1;
+}
+.mensagens h3 {
+  font-family: fontSemiBold;
+  margin-bottom: 20px;
+}
+.mensagem {
+  background-color: #ffffcc;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 6px #ccc;
+}
+.mensagem img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.mensagem .conteudo {
+  margin-left: 15px;
+  flex: 1;
+}
+.mensagem p {
+  font-size: 14px;
+  margin: 4px 0;
+}
+.mensagem a {
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+  font-weight: bold;
 }
